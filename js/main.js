@@ -1,21 +1,51 @@
 // Updated Data Arrays - Extended gallery with categories
 const servicesData = [
-    {
-        icon: 'fas fa-magic',
-        title: 'Styling',
-        description: 'From sleek to curly — get styled for any occasion.'
-    },
-    {
-        icon: 'fas fa-air-freshener',
-        title: 'Extensions',
-        description: 'Premium human hair extensions for added length and volume.'
-    },
-    {
-        icon: 'fas fa-spa',
-        title: 'Treatments',
-        description: 'Revitalize your hair with nourishing care and deep treatments.'
-    }
+  {
+    icon: 'fas fa-brush',
+    title: 'Styling & Treatments',
+    description: 'Cuts, silk press, color, textured haircare — tailored to your unique look.'
+  },
+  {
+    icon: 'fas fa-air-freshener',
+    title: 'Extensions & Wigs',
+    description: 'Luxury 100% human hair, ethically sourced and custom-blended for you.'
+  },
+  {
+    icon: 'fas fa-ring',
+    title: 'Bridal Styling',
+    description: 'Bespoke glam for weddings and events — in-studio or worldwide.'
+  },
+  {
+    icon: 'fas fa-globe',
+    title: 'Global Care',
+    description: 'Virtual consultations and expert guidance — wherever you are.'
+  }
 ];
+
+
+
+// why choose us array
+const whyChooseUsData = [
+  {
+    title: 'Inclusive Expertise',
+    description: 'Our stylists are trained across all hair types — from Type 1 straight to Type 4 coily — because beauty is never one-size-fits-all.'
+  },
+  {
+    title: 'Elegant, Effortless Results',
+    description: 'We combine creativity and technique to deliver styles that feel as good as they look — polished, wearable, and enduring.'
+  },
+  {
+    title: 'Trusted Worldwide',
+    description: 'With clients from Lagos to London, New York to Nairobi, our reputation is built on consistency, quality, and care.'
+  },
+  {
+    title: 'Your Crown. Your Culture. Our Craft.',
+    description: 'At AliceHairs, we honor the art of hair in all its forms. We believe beauty has no borders — and your styling experience should reflect that.'
+  }
+];
+
+
+
 
 // Extended gallery data with categories
 const galleryData = [
@@ -157,12 +187,14 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
 const servicesGrid = document.getElementById('services-grid');
+const chooseusGrid = document.getElementById('chooseus-grid');
 const galleryGrid = document.getElementById('gallery-grid');
 const contactForm = document.getElementById('contact-form');
 
 // Initialize App
 document.addEventListener('DOMContentLoaded', function() {
     renderServices();
+    renderChooseUS();
     initializeGallery();
     setupEventListeners();
     setupScrollEffects();
@@ -182,6 +214,19 @@ function renderServices() {
     `).join('');
     
     servicesGrid.innerHTML = servicesHTML;
+}
+
+
+// Render Services (unchanged)
+function renderChooseUS() {
+    const servicesHTML = whyChooseUsData.map(service => `
+        <div class="service-card" data-aos="fade-up">
+            <h3>${service.title}</h3>
+            <p>${service.description}</p>
+        </div>
+    `).join('');
+    
+    chooseusGrid.innerHTML = servicesHTML;
 }
 
 // Initialize Gallery with categories and pagination

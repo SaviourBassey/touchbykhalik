@@ -6,9 +6,9 @@
   --primary-dark: #1a252f;
 
   /* Accent Colors */
-  --accent-color: #a54785;
-  --accent-light: #a44885;
-  --accent-dark: #a34788;
+  --accent-color: #950dc2;   /* Main accent */
+  --accent-light: #a01ad0;   /* Slightly lighter/brighter */
+  --accent-dark: #7d0ca4;  
 
   /* Neutral Colors */
   --white: #ffffff;
@@ -102,8 +102,8 @@ body {
   max-width: 100%;
   object-fit: cover;
   width: 6rem;
-  height: auto;
-  aspect-ratio: 1 / 2;
+  height: 5rem;
+  /* aspect-ratio: 1 / 1; */
 }
 
 .nav-menu {
@@ -401,7 +401,7 @@ body {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-size: 1.85rem;
+      font-size: 1.3rem;
       animation: smoothFloat 6s ease-in-out infinite;
       font-weight: 700;
     }
