@@ -52,126 +52,126 @@ const galleryData = [
     // Model Images
     {
         id: 1,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504168/AliceHair/tinified/gallery-image-4_j4fgdt.jpg',
+        src: 'https://i.pinimg.com/736x/9d/b0/ad/9db0ad3b5369da4c9943ca4430a1150b.jpg',
         alt: "A woman sitting in a tub with a pink shirt on",
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 2,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504168/AliceHair/tinified/gallery-image-2_zkjaak.jpg',
+        src: 'https://i.pinimg.com/736x/f3/4c/11/f34c11a3e6b1a60e9f735463ebd3c041.jpg',
         alt: 'A woman with glasses sitting on a chair',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 3,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504168/AliceHair/tinified/gallery-image-7_yjrpdo.jpg',
+        src: 'https://i.pinimg.com/736x/06/a2/81/06a2817d1dca47663ceb87399449dd36.jpg',
         alt: "A woman with long twists in her hair",
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 4,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504168/AliceHair/tinified/gallery-image-19_gxy0bm.jpg',
+        src: 'https://i.pinimg.com/736x/16/d9/8c/16d98cca5b18efa6e4db71595984626a.jpg',
         alt: 'A woman in a pink top with a braid in her hair',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 5,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504157/AliceHair/tinified/gallery-image-8_lkcu6k.jpg',
+        src: 'https://i.pinimg.com/736x/35/60/80/356080097025689c4c93df8535fbd270.jpg',
         alt: "A woman with pink braids holding a cell phone.",
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 6,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504158/AliceHair/tinified/gallery-image-10_nnctoj.jpg',
+        src: 'https://i.pinimg.com/736x/a2/c6/ea/a2c6ea6116d62b2b2bcf6fad56fce278.jpg',
         alt: 'A little girl with long braids standing on a street',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 7,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504158/AliceHair/tinified/gallery-image-1_snmo7s.jpg',
+        src: 'https://i.pinimg.com/736x/bf/d5/d6/bfd5d68707600c4894b2a3f530439bed.jpg',
         alt: 'A woman with long braids is posing for a picture',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 8,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504156/AliceHair/tinified/gallery-image-5_p5bpac.jpg',
+        src: 'https://i.pinimg.com/736x/3e/4c/80/3e4c8090a8298abc9aa0b85ac3ba30b0.jpg',
         alt: 'a little girl sitting in a chair with a butterfly shirt on',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 11,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504143/AliceHair/tinified/gallery-image-6_j8iszu.jpg',
+        src: 'https://i.pinimg.com/736x/4f/c2/92/4fc29258a05b9e891a9f259e784d06ed.jpg',
         alt: 'a woman sitting in front of a poster',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 13,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504150/AliceHair/tinified/gallery-image-3_wtogis.jpg',
+        src: 'https://i.pinimg.com/736x/24/53/f4/2453f4fe978a522c0701cc9e5a6cbb40.jpg',
         alt: 'a woman sitting in a tub with her hair in a pony tail',
-        category: 'alicequeen'
+        category: 'clients'
     },
     {
         id: 14,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504143/AliceHair/tinified/gallery-image-9_amhefz.jpg',
+        src: 'https://i.pinimg.com/736x/c2/84/7b/c2847b92e22a3d19ec464bf94cc5250a.jpg',
         alt: 'a woman wearing glasses looking down at her cell phone',
-        category: 'alicequeen'
+        category: 'clients'
     },
     
     // Product Images
     {
         id: 9,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504164/AliceHair/tinified/gallery-image-16_ife5hj.jpg',
+        src: 'https://i.pinimg.com/736x/42/23/30/422330affe2ea6062b12ed4717b8689a.jpg',
         alt: 'A shade of burgundy Alice super jumbo braid hair extension',
         category: 'product'
     },
     {
         id: 10,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504168/AliceHair/tinified/gallery-image-11_neanes.jpg',
+        src: 'https://i.pinimg.com/736x/46/66/18/4666181d37b7aab7fc73fedb26b4b3b4.jpg',
         alt: 'A pile of alice super jumbo braid hair extension products sitting on top of a cardboard box',
         category: 'product'
     },
     {
         id: 12,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504154/AliceHair/tinified/gallery-image-14_dfcuzy.jpg',
+        src: 'https://i.pinimg.com/736x/29/71/13/2971133a92454694c70b1c38ed4a5f58.jpg',
         alt: 'A shade of red Alice super jumbo braid hair extension',
         category: 'product'
     },
     {
         id: 15,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504121/AliceHair/tinified/gallery-image-12_hugcwm.jpg',
+        src: 'https://i.pinimg.com/736x/ae/67/46/ae6746632e8a82e10627d5180a7d0171.jpg',
         alt: 'a bunch of white alice jumbo braids are in a box',
         category: 'product'
     },
     {
         id: 16,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504117/AliceHair/tinified/gallery-image-18_matojj.jpg',
+        src: 'https://i.pinimg.com/736x/f6/46/50/f64650cee6284b038ae4bcc761dffc5b.jpg',
         alt: ' a bunch of white hair sitting on top of a cardboard box',
         category: 'product'
     },
     {
         id: 17,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504117/AliceHair/tinified/gallery-image-13_iqfh2f.jpg',
+        src: 'https://i.pinimg.com/736x/fc/cb/fe/fccbfe7340d8291ed8601adf1c109f88.jpg',
         alt: 'two packets of medium brown alice jumbo hair extension inside a brown carton',
         category: 'product'
     },
     {
         id: 18,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504117/AliceHair/tinified/gallery-image-17_eiglv3.jpg',
+        src: 'https://i.pinimg.com/736x/96/dd/d9/96ddd9bdc04ad9c99ffcb5b2fbec6df0.jpg',
         alt: 'two packets of purple alice jumbo hair extension sitting on top of a cardboard box',
         category: 'product'
     },
     {
         id: 19,
-        src: 'https://res.cloudinary.com/slydegee/image/upload/v1748504117/AliceHair/tinified/gallery-image-15_etp23z.jpg',
+        src: 'https://i.pinimg.com/736x/ea/95/2e/ea952e49f37d72cc27771e73534514fc.jpg',
         alt: 'Purple Alice super jumbo braiding hair extensions',
         category: 'product'
-    },
-    {
-        id: 20,
-        src: './assets/images/alice-model.webp',
-        alt: 'ALice hair brand model posing for photo',
-        category: 'model'
     }
+    // {
+    //     id: 20,
+    //     src: './assets/images/alice-model.webp',
+    //     alt: 'ALice hair brand model posing for photo',
+    //     category: 'model'
+    // }
 ];
 
 // Gallery pagination variables
@@ -280,9 +280,9 @@ function loadMoreImages() {
 function getCategoryCounts() {
     const counts = {
         all: galleryData.length,
-        model: galleryData.filter(item => item.category === 'model').length,
+        // model: galleryData.filter(item => item.category === 'model').length,
         product: galleryData.filter(item => item.category === 'product').length,
-        alicequeen: galleryData.filter(item => item.category === 'alicequeen').length
+        clients: galleryData.filter(item => item.category === 'clients').length
     };
     return counts;
 }
@@ -297,14 +297,11 @@ function renderGallery() {
             <button class="category-tab ${activeCategory === 'all' ? 'active' : ''}" data-category="all">
                 All <span class="tab-count">(${counts.all})</span>
             </button>
-            <button class="category-tab ${activeCategory === 'model' ? 'active' : ''}" data-category="model">
-                Models <span class="tab-count">(${counts.model})</span>
+            <button class="category-tab ${activeCategory === 'clients' ? 'active' : ''}" data-category="clients">
+                Clients <span class="tab-count">(${counts.clients})</span>
             </button>
             <button class="category-tab ${activeCategory === 'product' ? 'active' : ''}" data-category="product">
                  Products <span class="tab-count">(${counts.product})</span>
-            </button>
-            <button class="category-tab ${activeCategory === 'alicequeen' ? 'active' : ''}" data-category="alicequeen">
-                Alice Queens <span class="tab-count">(${counts.alicequeen})</span>
             </button>
         </div>
     `;
