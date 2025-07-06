@@ -35,6 +35,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/app.css" />
+
+    <style>
+      /* Hide the link by default */
+      .mobile-only {
+        display: none;
+      }
+
+      /* Show it only on small screens AND when nav-menu has .active */
+      @media (max-width: 768px) {
+        #nav-menu.active .mobile-only {
+          display: block !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Navigation -->
@@ -49,7 +63,7 @@
             >Services</a
           >
           <a href="#gallery" class="nav-link" data-section="gallery">Gallery</a>
-          <a href="#price-list" class="nav-link" data-section="price-list">Price List</a>
+          <a href="#price-list" class="nav-link mobile-only" data-section="price-list">Price List</a>
           <a href="#contact" class="nav-link" data-section="contact">Contact</a>
         </div>
         <div class="hamburger" id="hamburger">
@@ -272,6 +286,17 @@
         const footerBottom = document.querySelector('.footer-bottom')
         footerBottom.innerHTML = footerContent
     </script>
+
+    <!-- <script>
+      const hamburger = document.getElementById('hamburger');
+      const navMenu = document.getElementById('nav-menu');
+
+      hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    </script> -->
+
     <script src="./js/main.js"></script>
+
   </body>
 </html>
